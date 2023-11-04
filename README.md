@@ -23,3 +23,6 @@ if c > max:
 print()
 print("Nilai terbesar :", max)
 ``` 
+### Hasil Inputan dan Outputnya
+
+![](Screenshot/Screenshot%20(51).png)
