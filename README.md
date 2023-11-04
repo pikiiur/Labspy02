@@ -5,7 +5,7 @@
 ### Latihan Praktikum Modul 2
 
 Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan
-tersebut tampilkan bilangan terbesarnya. Gunakan statement if.s
+tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
 
 ```python
 a = int(input("Masukan bilangan ke-1 :"))
@@ -23,6 +23,6 @@ if c > max:
 print()
 print("Nilai terbesar :", max)
 ``` 
-### Hasil Inputan dan Outputnya
+### Hasil Outputnya
 
 ![](Screenshot/Screenshot%20(51).png)
