@@ -23,7 +23,7 @@ if c > max:
 print()
 print("Nilai terbesar :", max)
 ``` 
-### Hasil Outputnya
+### Hasil Programnya
 
 ![](Screenshot/Screenshot%20(51).png)
 
@@ -53,7 +53,7 @@ if (bil1 < bil2):
    print("Bilangan terbesar :",bil2)
 ```
 
-### Hasil Input dan Outputnya
+### Hasil Programnya
 ![](Screenshot/Screenshot%20(47).png)
 
 ### Latihan 2
@@ -76,5 +76,50 @@ list.sort(data)
 print("Data setelah di urutkan :", data)
 ```
 
-### Hasil Input dan Outputnya
+### Hasil Programnya
 ![](Screenshot/Screenshot%20(48).png)
+
+
+## Tugas Perulangan
+
+### Latihan 1
+
+Buat program dengan perulangan bertingkat (Nested) for
+
+```python
+baris = 10
+kolom = baris
+
+for bar in range(baris):
+    for col in range(kolom):
+        tab = bar+col
+        print("{0:>5}".format(tab), end='')
+    print()
+```
+
+### Hasil Programnya
+
+![](Screenshot/Screenshot%20(49).png)
+
+### Latihan 2
+
+Tampilkan n bilangan acak yang lebih kecil dari 0.5.
+nilai n diisi pada saat runtime
+anda  bisa menggunakan kombinasi while dan for untuk menyelesaikannya
+
+```python
+import random
+print("===========================================")
+print("= Bilangan acak yang lebih kecil dari 0,5 =")
+print("===========================================")
+
+jum = int( input("Masukan nilai: "))
+i = 0
+while i in range(jum):
+    i += 1
+    angkarandom = random.uniform(0,0.5)
+    print("Bilangan ke :", i, " : ", angkarandom)
+```
+
+### Hasil Programnya
+![](Screenshot/Screenshot%20(50).png)
