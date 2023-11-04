@@ -26,3 +26,7 @@ print("Nilai terbesar :", max)
 ### Hasil Outputnya
 
 ![](Screenshot/Screenshot%20(51).png)
+
+### Flowchart
+
+![](Flowchart.jpg)
