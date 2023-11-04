@@ -2,4 +2,18 @@
 
 ## Tugas Praktikum Modul 2
 
-[img](https://github.com/pikiiur/Labspy02/blob/b1a8656cceb3daa950bd640a8c9de290f9ddafae/Tugas%20Praktikum%20Modul%202/Tugas%20Praktikum%202.py)
+```python
+#Masukan input 
+bil1 = int (input("Masukan bilangan : "))
+bil2 = int (input("Masukan bilangan : "))
+
+#Nilai terbesar
+
+if (bil1 > bil2):
+   print("Bilangan terbesar :",bil1)
+
+#Nilai terkecil
+
+if (bil1 < bil2):
+   print("Bilangan terbesar :",bil2)
+``` 
